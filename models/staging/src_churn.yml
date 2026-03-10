@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: my-project-20260226-488620  # Seu ID do projeto
+    schema: raw_data
+    tables:
+      - name: churn_raw
+        description: "Tabela bruta com os dados de churn de clientes importada via CSV."
+        columns:
+          - name: CustomerId
+            description: "Chave primária do cliente."
+            tests:
+              - unique
+              - not_null
