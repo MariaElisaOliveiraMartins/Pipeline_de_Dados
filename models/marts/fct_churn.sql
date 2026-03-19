@@ -6,6 +6,9 @@ with staging as (
 
 select
     customer_id,
+    -- ESTA LINHA É A PONTE PARA O GRÁFICO:
+    {{ dbt_utils.generate_surrogate_key(['country_name']) }} as geography_key,
+    
     credit_score,
     balance,
     estimated_salary,
@@ -13,6 +16,5 @@ select
     has_credit_card,
     is_active_member,
     is_churned,
-    -- Exemplo de métrica calculada: Salário por dependente ou similar poderia entrar aqui
     round(balance / nullif(estimated_salary, 0), 4) as balance_to_salary_ratio
 from staging
