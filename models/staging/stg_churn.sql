@@ -10,6 +10,7 @@ renamed as (
 
         -- Atributos
         cast(Geography as STRING) as geography,
+        trim(upper(geography)) as country_name,
         cast(Gender as STRING) as gender,
         cast(Age as INT64) as age,
         cast(Tenure as INT64) as tenure,
@@ -24,7 +25,8 @@ renamed as (
         cast(HasCrCard as INT64) as has_credit_card,
         cast(IsActiveMember as INT64) as is_active_member,
         cast(Exited as INT64) as is_churned
-
+        
+        
     from source
 )
 
