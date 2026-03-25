@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: raw_data
-    database: my-project-20260226-488620  # Seu ID do projeto
+    database: my-project-20260226-488620  #  ID do projeto
     schema: raw_data
     tables:
       - name: churn_raw

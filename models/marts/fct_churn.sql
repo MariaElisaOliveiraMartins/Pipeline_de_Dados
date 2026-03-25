@@ -6,7 +6,6 @@ with staging as (
 
 select
     customer_id,
-    -- ESTA LINHA É A PONTE PARA O GRÁFICO:
     {{ dbt_utils.generate_surrogate_key(['country_name']) }} as geography_key,
     
     credit_score,
