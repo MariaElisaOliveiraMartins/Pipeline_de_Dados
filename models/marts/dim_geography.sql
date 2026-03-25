@@ -3,8 +3,7 @@ with stg_churn as (
 ),
 
 dim_geography_pre_clean as (
-    select distinct
-        -- Usando o nome correto 'geography' que identificamos
+    select distinct 
         trim(upper(geography)) as country_name
     from stg_churn
     where geography is not null
