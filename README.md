@@ -14,10 +14,12 @@ Este projeto demonstra a construção de um pipeline de dados moderno (Modern Da
 
 ### 📊 Resultados Visuais
 ![dashboard_churn](docs/dashboard_churn.png)
+
 *Visualização do "Céu Noturno" com métricas de retenção por país e KPIs globais.*
 
 ### ⛓️ Linhagem de Dados (dbt)
 ![dbt_lineage](docs/dbt_lineage.png)
+
 *Estrutura de Staging, Dimensões e Fatos seguindo as melhores práticas de Engenharia.*
 
 ### ⚙️ Diferenciais Técnicos
