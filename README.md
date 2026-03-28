@@ -1,7 +1,7 @@
 # Projeto Pipeline_de_Dados
 Repositório destinado à apresentação e publicação do projeto de Engenharia de Dados
 
-# 🚀 Projeto de Engenharia de Dados: Análise de Churn Bancário
+# 🚀 Projeto de Engenharia de Dados: Análise de Churn
 
 ### 🛠️ O Contexto
 Este projeto demonstra a construção de um pipeline de dados moderno (Modern Data Stack), transformando dados brutos em insights estratégicos. Com mais de 30 anos de experiência em sistemas Unix e Bancos de Dados, apliquei conceitos sólidos de modelagem em ferramentas cloud de última geração.
