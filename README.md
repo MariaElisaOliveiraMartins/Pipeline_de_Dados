@@ -26,3 +26,4 @@ Este projeto demonstra a construção de um pipeline de dados moderno (Modern Da
 - **Conversão de Tipos:** Tratamento de dados geográficos e conversão de strings para métricas precisas.
 - **Qualidade:** Implementação de testes de integridade via dbt.
 - **Automação:** Planejamento de DAGs no Airflow para execução diária.
+  
